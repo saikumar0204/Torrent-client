@@ -9,7 +9,7 @@ const util = require('./util');
 
 module.exports.getPeers = (torrent, callback) => {
   const socket = dgram.createSocket('udp4');
-  const url = torrent["announce-list"][9].toString('utf8');
+  const url = torrent["announce-list"][1].toString('utf8');
   
   // 1. send connect request
   udpSend(socket, buildConnReq(), url);
