@@ -7,6 +7,8 @@ Step 1: We need to send a request to something called a tracker, and the tracker
 Step 2: After we have the list of peer addresses, we want to connect to them directly and start downloading. This happens through an exchange of messages where they tell what pieces they have, and we tell them which pieces you want.
 
 
+dingachika.torrent is the tracker file.
+
 
 # src/tracker.js 
 Need to increment index from 0 to the "index" whereever it works  and check the functionality in the 
