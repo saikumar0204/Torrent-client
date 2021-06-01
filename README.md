@@ -1,5 +1,5 @@
 # Torrent-client
-This project aims to build a bit torrent Client REST Api
+This project aims to build a bit torrent Client Api
 
 # Project details:
 Step 1: We send a request to a tracker, and the tracker will respond with a list of peers. More specifically, we tell the tracker which files we’re trying to download, and the tracker gives you the ip address of the users we download them from. Making a request to a tracker also adds our ip address to the list of users that can share that file.
