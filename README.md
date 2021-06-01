@@ -9,10 +9,10 @@ Step 2: After we have the list of peer addresses, we connect to them directly an
 
 dingachika.torrent is the sample tracker file we used.
 
-
+<!-- 
 # src/tracker.js 
 Need to increment index from 0 to the "index" whereever it works  and check the functionality in the 
-Line : "const url = torrent["announce-list"][index].toString('utf8');"
+Line : "const url = torrent["announce-list"][index].toString('utf8');" -->
 
 # command to run code
  node index.js home/path_to_torrent_file
